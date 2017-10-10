@@ -5,7 +5,7 @@ Author: Gonzalo Marcote - gonzalomarcote_at_gmail.com
 
 License: GNU General Public License V3.0
 
-Disclaimer: For my own use. Use on your own (GNU GPL License).
+Disclaimer: For my own use. Modify it to your own usage (GNU GPL License).
 
 ### Sscript to configure you home our office dynamic IP in one AWS Route53 domain
 
