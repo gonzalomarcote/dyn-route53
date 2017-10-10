@@ -7,7 +7,7 @@ License: GNU General Public License V3.0
 
 Disclaimer: For my own use. Modify it to your own usage (GNU GPL License).
 
-### Sscript to configure you home our office dynamic IP in one AWS Route53 domain
+### Script to configure you home our office dynamic IP in one AWS Route53 domain
 
 #### Usage
 Required packages: awscli, jq, moreutils
