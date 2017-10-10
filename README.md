@@ -1,6 +1,8 @@
 # dyn-route53
 Route53 dynamic dns script
 
+Author: Gonzalo Marcote - gonzalomarcote_at_gmail.com
+
 License: GNU General Public License V3.0
 
 Disclaimer: For my own use. Use on your own (GNU GPL License).
