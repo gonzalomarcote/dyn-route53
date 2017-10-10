@@ -45,7 +45,8 @@ json=/your/path/dynroute53.json
 #----------------------------------------------------------
 if [ $extIp != $awsIp ]
 then
-  	echo "Your $record AWS rcord is: $awsIp and has changed to: $extIp Updating it..."
+  	echo "Your $record AWS rcord is: $awsIp and has changed to: $extIp"
+	echo "Updating it..."
 	# We update json file with new IP and change it with aws
 	/usr/bin/jq --arg extIp "$extIp" '.Changes[].ResourceRecordSet.ResourceRecords[].Value = $extIp' $json|sponge $json
   	/usr/local/bin/aws route53 change-resource-record-sets --hosted-zone-id $zoneId --change-batch file://$json
